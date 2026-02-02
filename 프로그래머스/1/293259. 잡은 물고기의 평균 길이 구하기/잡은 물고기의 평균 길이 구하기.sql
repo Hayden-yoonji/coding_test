@@ -1,0 +1,5 @@
+SELECT ROUND(SUM(IF(LENGTH is not null, LENGTH, 10)) / count(id),2) AVERAGE_LENGTH
+FROM FISH_INFO;
+
+
+
